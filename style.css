@@ -1,0 +1,218 @@
+/* CSS DEFAULTS */
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Small devices */
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Medium devices */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+}
+
+/* Large devices */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 66px;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+}
+
+/* BOOTSTRAP */
+.container {
+  /* padding: 0; */
+}
+
+.navbar {
+  background: transparent;
+  padding: 16px;
+  position: absolute;
+  width: 100%;
+}
+
+.navbar button {
+  font-weight: 300;
+  padding: 4px 16px;
+}
+
+main {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0) 75%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("./assets/images/home.jpg");
+  background-size: cover;
+  /* padding: 64px; */
+}
+
+.main-content {
+  margin: 0 auto;
+  /* max-width: 660px; */
+  /* padding: 80px 56px; */
+  position: relative;
+  text-align: center;
+}
+
+.main-content__input-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-content__input-container input {
+  flex: 1;
+  padding: 12px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.main-content {
+  padding: 104px 0;
+}
+
+.benefits-section {
+  padding: 32px 32px 40px 32px;
+  text-align: center;
+}
+
+.benefits-section {
+  border-bottom: 8px solid #222;
+}
+
+.benefits-section:first-of-type {
+  border-top: 8px solid #222;
+}
+
+.benefits-content div {
+  padding: 16px;
+}
+
+.benefits-content img {
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  border-radius: 0;
+  padding: 8px 16px;
+}
+
+.btn-danger {
+  background: #f40612;
+}
+
+.btn h2 {
+  font-weight: 400;
+  margin: 0;
+}
+
+#accordion {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#accordion .card {
+  border: none;
+  background: #303030;
+  margin-bottom: 8px;
+}
+
+#accordion .card-header {
+  background: #303030;
+  border-radius: none;
+}
+
+#accordion button {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .main-content__input-container {
+    flex-direction: row;
+  }
+
+  .main-content__input-container input {
+    height: 60px;
+    padding: 16px 12px;
+  }
+
+  .main-content__input-container button {
+    height: 60px;
+    font-weight: 400;
+    font-size: 32px;
+  }
+
+  .main-content {
+    padding: 13rem 0;
+    max-width: 800px;
+  }
+
+  .benefits-section {
+    padding: 40px 40px 56px 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-content__input-container input {
+    height: 70px;
+  }
+
+  .main-content__input-container button {
+    height: 70px;
+  }
+}
