@@ -79,6 +79,13 @@ h5 {
   width: 100%;
 }
 
+.navbar-brand {
+  color: #e50914;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: -2px;
+}
+
 .navbar button {
   font-weight: 300;
   padding: 4px 16px;
@@ -182,6 +189,10 @@ main {
 }
 
 @media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 32px;
+  }
+
   .main-content__input-container {
     flex-direction: row;
   }
@@ -208,6 +219,10 @@ main {
 }
 
 @media (min-width: 1200px) {
+  .navbar-brand {
+    font-size: 40px;
+  }
+
   .main-content__input-container input {
     height: 70px;
   }
