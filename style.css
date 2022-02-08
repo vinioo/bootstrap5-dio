@@ -42,6 +42,22 @@ h5 {
   font-weight: 400;
 }
 
+/* Boostrap */
+
+.btn {
+  border-radius: 0;
+  padding: 8px 16px;
+}
+
+.btn-danger {
+  background: var(--main-red-color);
+}
+
+.btn h2 {
+  font-weight: 400;
+  margin: 0;
+}
+
 /* Custom styles */
 .navbar {
   background: transparent;
@@ -119,20 +135,6 @@ main {
 .benefits-content img {
   width: 100%;
   height: auto;
-}
-
-.btn {
-  border-radius: 0;
-  padding: 8px 16px;
-}
-
-.btn-danger {
-  background: var(--main-red-color);
-}
-
-.btn h2 {
-  font-weight: 400;
-  margin: 0;
 }
 
 #accordion {
