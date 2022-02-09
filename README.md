@@ -5,7 +5,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você instalou a versão mais recente do `git`
 * Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
 
-## ☕ Usando <nome_do_projeto>
+## ☕ Clonando o projeto
 
 Para desenvolver o site, siga estas etapas:
 
